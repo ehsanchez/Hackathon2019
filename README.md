@@ -19,6 +19,7 @@ In order to run the code the following requirements are needed:
 - SDK ([Install instructions](https://cloud.google.com/sdk/docs/downloads-apt-get))
 - Tensorflow 1.12 ([Install instructions](https://www.tensorflow.org/install))
 
+Note that most of the requirements are already fulfilled when using Google Compute Engine instances (in particular for SDK and Tensorflow where the installation might not be straightforward).
 
 In order to recover the Sentinel-2 dataset, we provide an example in `./Code/launchers/launch_get_data_from_bucket.py`. It recovers the content of `gs://hackathon-isae-2019/` and save it in a local directory `~/Data` via the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool.
 
