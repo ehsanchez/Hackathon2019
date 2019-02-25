@@ -1,6 +1,9 @@
 # Hackathon2019
 ISAE-SUPAERO Hackathon based on image location retrieval
 
+# Description
+The Hackathon description is available in `./Presentation`.
+
 # Data
 As explained during the presentation, you will work with Sentinel-2 image time series. The data is provided in [tfrecord format](https://www.tensorflow.org/tutorials/load_data/tf_records) which is a useful format when dealing with large amounts of data. For training your models, we selected 42 tiles containing several regions of interest such as the Amazon rainforest, the Dead Sea, the city of Los Angeles, the Great Sandy Desert, circular fields in Saudi Arabia, among others.
 
@@ -26,3 +29,5 @@ In order to recover the Sentinel-2 dataset, we provide an example in `./Code/lau
 In order to read the tfrecord files, we provide an example using the [tf.data.Dataset object](https://www.tensorflow.org/guide/datasets) in `./Code/launchers/launch_get_time_series.py`. In this case, we create a `dataset` of time series from the tfrecord files in `filenames`. Then, we sample some time series from the dataset and create an animated GIF.
 
 # Submission
+
+An example of CSV submission file is available in `./Submission`.
