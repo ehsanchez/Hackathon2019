@@ -8,10 +8,16 @@ For each tile, we extracted 100 time series composed of 12 images of size 512 x 
 
 The bucket address is `gs://hackathon-isae-2019/`. **In order to have access to the bucket please send me an email providing the Google account email you use for the Hackathon.**
 
-Since 
-
-[tf.data.Dataset object](https://www.tensorflow.org/guide/datasets)
+Additionally, we provide you some code in order to recover the Sentinel-2 data from the bucket and to read the tfrecord files.
 
 # Code
+
+- Python 3.6
+- SDK ([Install instructions](https://cloud.google.com/sdk/docs/downloads-apt-get))
+- Tensorflow 1.12 ([Install instructions](https://www.tensorflow.org/install))
+
+In order to recover the Sentinel-2 dataset, we provide an example in `./Code/launchers/launch_get_data_from_bucket.py`. It recovers the content of `gs://hackathon-isae-2019/` and save it in a local directory `~/Data` via the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool.
+
+[tf.data.Dataset object](https://www.tensorflow.org/guide/datasets)
 
 # Submission
