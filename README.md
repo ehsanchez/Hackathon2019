@@ -1,5 +1,6 @@
 # Hackathon2019
 ISAE-SUPAERO Hackathon based on image location retrieval
+(./imgs/Challenge.png)
 
 # Description
 The Hackathon description is available in `./Presentation`.
