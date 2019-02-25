@@ -1,4 +1,4 @@
-# Hackathon2019
+# Hackathon 2019
 ISAE-SUPAERO Hackathon based on image location retrieval
 
 ![Alt text](imgs/Challenge.png)
