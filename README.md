@@ -11,7 +11,7 @@ The bucket address is `gs://hackathon-isae-2019/`. **In order to have access to 
 Additionally, we provide you some code in order to recover the Sentinel-2 data from the bucket and to read the tfrecord files.
 
 # Code
-In order to run the code the following requirements are needed:
+To run the code the following requirements are needed:
 
 - Python 3.6
 - numpy (run `pip install numpy`)
