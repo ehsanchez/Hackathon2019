@@ -14,6 +14,8 @@ Additionally, we provide you some code in order to recover the Sentinel-2 data f
 In order to run the code the following requirements are needed:
 
 - Python 3.6
+- numpy (run `pip install numpy`)
+- imageio (run `pip install imageio`)
 - SDK ([Install instructions](https://cloud.google.com/sdk/docs/downloads-apt-get))
 - Tensorflow 1.12 ([Install instructions](https://www.tensorflow.org/install))
 
