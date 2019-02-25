@@ -23,6 +23,6 @@ Note that most of the requirements are already fulfilled when using Google Compu
 
 In order to recover the Sentinel-2 dataset, we provide an example in `./Code/launchers/launch_get_data_from_bucket.py`. It recovers the content of `gs://hackathon-isae-2019/` and save it in a local directory `~/Data` via the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool.
 
-[tf.data.Dataset object](https://www.tensorflow.org/guide/datasets)
+In order to read the tfrecord files, we provide an example using the [tf.data.Dataset object](https://www.tensorflow.org/guide/datasets) in `./Code/launchers/launch_get_data_from_bucket.py`.
 
 # Submission
