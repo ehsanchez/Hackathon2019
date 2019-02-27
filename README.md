@@ -11,7 +11,7 @@ As explained during the presentation, you will work with Sentinel-2 image time s
 
 For each tile, we extracted 100 time series composed of 12 images of size 512 x 512 x 4 and saved them in one tfrecord file. Therefore, the training dataset is composed of 42 tfrecord files which will be available in a [Google Cloud Storage bucket](https://cloud.google.com/storage/docs/key-terms#buckets) on Monday March 4th.
 
-The bucket address is `gs://hackathon-isae-2019/`. **In order to have access to the bucket please send me an email providing the email account (i.e, name@student.isae-supaero.fr) associated with the Google account you use for the Hackathon.**
+The bucket address is `gs://hackathon-isae-2019/`. **In order to have access to the bucket please send me an email providing the email account (i.e., name@student.isae-supaero.fr) associated with the Google account you use for the Hackathon.**
 
 Additionally, we provide you some code in order to recover the Sentinel-2 data from the bucket and to read the tfrecord files.
 
