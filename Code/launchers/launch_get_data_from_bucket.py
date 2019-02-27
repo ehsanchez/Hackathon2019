@@ -1,4 +1,4 @@
-import Hackathon2019.src.GCS as GCS
+import Code.src.GCS as GCS
 
 
 bucket = "gs://hackathon-isae-2019/"

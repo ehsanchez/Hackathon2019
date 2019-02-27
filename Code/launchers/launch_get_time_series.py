@@ -2,8 +2,8 @@ import glob
 import tensorflow as tf
 tf.enable_eager_execution()
 
-import Hackathon2019.src.Sentinel2 as Sentinel2
-import Hackathon2019.src.utils as utils
+import Code.src.Sentinel2 as Sentinel2
+import Code.src.utils as utils
 
 
 # Recover the tfrecords and create a dataset of time series
