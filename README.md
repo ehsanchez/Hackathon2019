@@ -27,11 +27,11 @@ To run the code the following requirements are needed:
 
 Note that most of the requirements are already fulfilled when using Google Compute Engine instances (in particular for SDK and Tensorflow where the installation might not be straightforward).
 
-In order to recover the Sentinel-2 dataset, we provide an example in `./Code/launchers/launch_get_data_from_bucket.py`. It recovers the content of `gs://hackathon-isae-2019/` and save it in a local directory `~/Data` via the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool.
+In order to recover the Sentinel-2 datasets, we provide an example in `./Code/launchers/launch_get_data_from_bucket.py`. It recovers the content of `gs://hackathon-isae-2019/` and save it in a local directory `~/Data` via the [gsutil](https://cloud.google.com/storage/docs/gsutil) tool.
 
-In order to read the tfrecord files, we provide an example using the [tf.data.Dataset object](https://www.tensorflow.org/guide/datasets) in `./Code/launchers/launch_get_time_series.py`. In this case, we create a `dataset` of time series from the tfrecord files in `filenames`. Then, we sample some time series from the dataset and create an animated GIF.
+In order to read the training tfrecord files, we provide an example using the [tf.data.Dataset object](https://www.tensorflow.org/guide/datasets) in `./Code/launchers/launch_get_time_series.py`. In this case, we create a `dataset` of time series from the tfrecord files in `filenames`. Then, we sample some time series from the dataset and create an animated GIF.
 
-In order to read the test data, you will find an example as well in `./Code/launchers/launch_get_test_data.py`. In this case, we create an `image_dataset` which contains 600 images of 512 x 512 x 4 and `patch_dataset` which contains the patches of 64 x 64 x 12 to be retrieved. Then, we plot some images and patches.
+To read the test tfrecord files, you will find an example as well in `./Code/launchers/launch_get_test_data.py`. In this case, we create an `image_dataset` which contains 600 images of 512 x 512 x 4 and `patch_dataset` which contains the patches of 64 x 64 x 12 to be retrieved. Then, we plot some images and patches.
 
 To create a submission file, a script is provided in `./Code/launchers/launch_create_submission.py`.
 
