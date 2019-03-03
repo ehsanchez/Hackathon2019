@@ -33,7 +33,7 @@ In order to read the training tfrecord files, we provide an example using the [t
 
 To read the test tfrecord files, you will find an example as well in `./Code/launchers/launch_get_test_data.py`. In this case, we create an `image_dataset` which contains 600 images of 512 x 512 x 4 and `patch_dataset` which contains the patches of 64 x 64 x 4 to be retrieved. Then, we plot some images and patches.
 
-To create a submission file, a script is provided in `./Code/launchers/launch_create_submission.py`.
+To create a submission file, a script is provided in `./Code/launchers/launch_create_submission.py`. Finally, validation data (image dataset, patch dataset and submission file) is provided to evaluate your models. An example script to get the score is provided in `./Code/launchers/launch_get_score.py`.
 
 # Submission
 
